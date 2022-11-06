@@ -116,7 +116,7 @@ export default function App() {
               type: "INVALID_API_KEY",
               payload: {
                 message:
-                  "Something went wrong! Please try again after sometime",
+                  "Something went wrong!! Please try again after sometime",
               },
             });
           }

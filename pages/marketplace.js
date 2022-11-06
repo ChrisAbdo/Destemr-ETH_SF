@@ -176,6 +176,8 @@ const marketplace = () => {
       });
     }
   }
+
+  // if there are no posts, show a message, otherwise show the posts
   return (
     <div>
       <div>

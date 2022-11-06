@@ -4,7 +4,7 @@ import requests
 API_KEY = 'ckey_d04783f7a7bb4b9099996a457ae'
 base_url = 'https://api.covalenthq.com/v1'
 blockchain_chain_id = "80001"
-demo_address = "0x0acBA4C41EaD17828b524A289eeb959Ea88CA63e"
+demo_address = "0x83E27ddA0368389d59eB74B97061321013B43337"
 
 
 def getNFTdata(chain_id, address):

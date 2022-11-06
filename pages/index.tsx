@@ -3,6 +3,7 @@ import Marquee from "react-fast-marquee";
 import Web3 from "web3";
 import { useRouter } from "next/router";
 import toast from "react-hot-toast";
+import Head from "next/head";
 
 const Home = () => {
   const [account, setAccount] = React.useState("");
@@ -43,6 +44,10 @@ const Home = () => {
 
   return (
     <div>
+      <Head>
+        <title>DeStemr</title>
+      </Head>
+
       <div
         className="grid grid-cols-1 md:grid-cols-2 border-b-[2px] border-black lg:divide-x-[2px] lg:divide-black 
         xs:dive-y-[2px] xs:divide-black
